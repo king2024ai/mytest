@@ -18,7 +18,7 @@ $(hostname -I)
 )
 
 # Xray Installation
-cp xray /usr/local/bin/xray
+cp /root/mytest/xray /usr/local/bin/xray
 chmod +x /usr/local/bin/xray
 cat <<EOF > /etc/systemd/system/xray.service
 [Unit]
